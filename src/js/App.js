@@ -11,7 +11,7 @@ class App extends Component {
           <h1 className="App-title">Reveuawl</h1>
         </header>
         <p className="App-intro">
-          Reveuawl - Your one stop for all the reviews.
+          Your one stop for all the reviews
         </p>
       </div>
     );
