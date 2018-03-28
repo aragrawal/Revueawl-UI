@@ -12,7 +12,30 @@ class App extends Component {
         </header>
         <p className="App-intro">
           Your one stop for all the reviews
-        </p>
+        </p>			 
+		<div class="container">
+  			<form class="form-inline">
+    			<div class="form-group">
+      				<label for="city">City:</label>
+      				<div class="col-4">
+      					<input type="text" class="form-control" id="city" placeholder="Enter City" name="city"></input>
+      				</div>
+    			</div>
+    			<div class="form-group">
+      				<label for="state">State:</label>
+      				<div class="col-4">
+      					<input type="text" class="form-control" id="state" placeholder="Enter State" name="state"></input>
+      				</div>
+    			</div>
+    			<div class="form-group">
+      				<label for="country">Country:</label>
+      				<div class="col-4">
+      					<input type="text" class="form-control" id="country" placeholder="Enter Country" name="country"></input>
+      				</div>
+    			</div>
+    				<button type="submit" class="btn btn-primary">Submit</button>
+  			</form>
+		</div>
       </div>
     );
   }
